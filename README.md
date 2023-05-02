@@ -18,12 +18,11 @@ This scraper is under active development. If you have any feature requests you c
 
 ## Input Parameters
 
-The input of this scraper should be JSON containing the list of pages on Twitter Spaces Scraper that should be visited. Required fields are:
+The input of this scraper should be JSON containing the list of pages on Twitter Spaces Scraper that should be visited. Possible fields are:
 
-| Field                | Type    | Description                                                                                                                                                                                                    |
-| -------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| startUrls            | Array   |  List of Twitter Spaces URLs. You should only provide space URLs.                                                                                                                 |
-| proxy                | Object  | Proxy configuration                                                                                                                                                                                            |
+- `startUrls`: (Optional) (Array) List of Twitter Spaces URLs. You should only provide space URLs.
+
+- `proxy`: (Required) (Proxy Object) Proxy configuration.
 
 This solution requires the use of **Proxy servers**, either your own proxy servers or you can use [Apify Proxy](https://www.apify.com/docs/proxy).
 
